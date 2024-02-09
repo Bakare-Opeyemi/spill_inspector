@@ -1,0 +1,41 @@
+name: spill_inspector
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.12.0
+  image_picker: ^0.8.7
+  google_mlkit_image_labeling: ^0.5.0
+  path_provider: ^2.0.14
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter_icons:
+  android: launcher_icon
+  ios: true
+  remove_alpha_ios: true
+  image_path: images/icons8-artificial-intelligence-48.png
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: images/icons8-artificial-intelligence-48.png
+    background_color: '#hexcode'
+    theme_color: '#hexcode'
+  windows:
+    generate: true
+    image_path: images/icons8-artificial-intelligence-48.png
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: images/icons8-artificial-intelligence-48.png
+flutter:
+  uses-material-design: true
+  assets:
+  - images/
+  - assets/ml/
